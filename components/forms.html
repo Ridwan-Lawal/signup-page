@@ -1,0 +1,26 @@
+<form action="" class="flex flex-col">
+  <!-- section title and error -->
+  <div class="flex justify-between">
+    <section class="section-title text-sm text-darkSlateGrey font-bold">
+      Email address
+    </section>
+    <!-- error -->
+    <p class="error text-sm font-medium italic hidden text-tomato">
+      Invalid email address
+    </p>
+  </div>
+
+  <!-- form -->
+  <input
+    type="email"
+    placeholder="email@company.com"
+    class="border mt-3 text-darkSlateGrey border-gray rounded-md py-4 px-6 placeholder:text-gray-300 focus:outline-0 focus:border-darkSlateGrey transition-all duration-300 shadow-sm"
+  />
+  <!-- submit btn -->
+  <button
+    type="submit"
+    class="py-4 mt-7 rounded-md transition-colors duration-200 bg-darkSlateGrey text-white font-bold hover:bg-tomato"
+  >
+    Subscribe to monthly newsletter
+  </button>
+</form>
