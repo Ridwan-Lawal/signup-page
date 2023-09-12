@@ -118,12 +118,12 @@ btnSubmit.addEventListener("click", (e) => {
   invalidChars(emailInputValue);
   console.log(valid);
 
-  //   if (valid) {
-  //     signUpPage.classList.add("hidden");
-  //     inputEmail.value = "";
-  //     successPage.classList.remove("hidden");
-  //     successPage.classList.add("grid");
-  //   }
+  if (valid) {
+    signUpPage.classList.add("hidden");
+    inputEmail.value = "";
+    successPage.classList.remove("hidden");
+    successPage.classList.add("grid");
+  }
 });
 
 // // dismissing message
