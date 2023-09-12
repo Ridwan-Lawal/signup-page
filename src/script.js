@@ -132,9 +132,3 @@ btnDismiss.addEventListener("click", () => {
   successPage.classList.remove("grid");
   container;
 });
-
-// what to do
-// add error border and background
-/* and add the functionality of what
- happens when the email is  valid i.e redirecting to the
- success page*/
