@@ -87,6 +87,7 @@ const validCharsValidate = function (arr, inputValue) {
   } else {
     // if email is valid
     valid = true;
+    errorField.classList.add("hidden");
   }
 
   errorStyling();
@@ -117,12 +118,12 @@ btnSubmit.addEventListener("click", (e) => {
   invalidChars(emailInputValue);
   console.log(valid);
 
-  if (valid) {
-    signUpPage.classList.add("hidden");
-    inputEmail.value = "";
-    successPage.classList.remove("hidden");
-    successPage.classList.add("grid");
-  }
+  //   if (valid) {
+  //     signUpPage.classList.add("hidden");
+  //     inputEmail.value = "";
+  //     successPage.classList.remove("hidden");
+  //     successPage.classList.add("grid");
+  //   }
 });
 
 // // dismissing message
